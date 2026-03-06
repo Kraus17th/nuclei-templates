@@ -1,0 +1,36 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*~
+*.log
+
+# Python / tools
+__pycache__/
+*.pyc
+
+# Nuclei: scan results, reports and temp files
+nuclei-results/
+results/
+reports/
+*.json
+*.csv
+*.txt
+
+# Archives and backups
+*.tar
+*.tar.gz
+*.zip
+*.bak
+*.orig
+*.old
+
+# Node / npm (if used for helper scripts)
+node_modules/
+
+# Explicitly allow yaml templates
+!*.yaml
